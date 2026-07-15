@@ -1,0 +1,38 @@
+{
+  "best_model": "random_forest",
+  "metrics": {
+    "precision": 0.9771,
+    "recall": 0.7953,
+    "f1": 0.8769,
+    "auc_roc": 0.8969,
+    "auc_pr": 0.8084
+  },
+  "confusion_matrix": [
+    [
+      9561,
+      4
+    ],
+    [
+      44,
+      171
+    ]
+  ],
+  "features": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "txn_count_1h",
+    "avg_amount_deviation",
+    "is_new_device",
+    "is_new_location",
+    "distance_km",
+    "account_age_days",
+    "is_high_risk_country",
+    "billing_shipping_mismatch",
+    "failed_attempts_last_hour",
+    "payment_method"
+  ],
+  "training_rows": 39120,
+  "test_rows": 9780,
+  "fraud_rate": 0.02196
+}
